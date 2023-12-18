@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #011627;
+}
+
+p#Vidade {
+    text-align: center;
+    color: white;
+}
+
+#quad {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    width: 90%;
+    max-width: 500px;
+}
+
+input {
+    border: none;
+}
+
+#nasc input {
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+#ver {
+    display: block;
+    width: 100px;
+    border-radius: 3px;
+}
+
+#res {
+    padding-top: 20px;
+}

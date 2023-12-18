@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+    </style>
+    <title>Verificar horario</title>
+</head>
+
+<body>
+    <p id="Vidade">Verificador de idade</p>
+    <div id="quad">
+        <div id="nasc">
+            <p>Ano de Nascimento
+                <input type="number" name="nNum" id="nascimento">
+        </p>
+        </div>
+        <div id="inputs">
+            <p>
+                Sexo:<input type="radio" name="nSex" id="homem" value="Masculino"> 
+                <label for="homem">Masculino</label>
+                <input type="radio" name="nSex" id="fem" value="Feminino"> 
+                <label for="fem">Feminino</label>
+
+            </p>
+        </div>
+        <input id="ver" type="button" value="Verificar" onclick="verificar()">
+        <div id="res">Preencha todos os dados para verificar sua idade</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
