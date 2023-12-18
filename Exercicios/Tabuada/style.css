@@ -31,7 +31,7 @@ input[type=number] {
     width: 60%;
 }
 
-#res {
+#tab {
     margin: auto;
     display: block;
     padding: 10px;
@@ -40,6 +40,15 @@ input[type=number] {
     height: 300px;
     width: 90%;
     max-width: 400px;
+}
+#res{
+    width: 100%;
+    border: none;
+    overflow-y: hidden;
+}
+option{
+    display: block;
+    text-align: center;
 }
 
 #btn {
