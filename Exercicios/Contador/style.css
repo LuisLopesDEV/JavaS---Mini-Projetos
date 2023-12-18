@@ -1,0 +1,33 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #011627;
+}
+#quad {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    width: 90%;
+    max-width: 500px;
+}
+
+#contador{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+input[type=number]{
+    border-radius: 4px;
+    border: none;
+}
+#btn{
+    border-radius: 7px;
+    border: none;
+}
