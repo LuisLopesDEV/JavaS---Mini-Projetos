@@ -8,6 +8,10 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header h1{
     display: block;
@@ -21,9 +25,11 @@ header h1{
     
 }
 #quad{
+    
     background-color: gainsboro;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.397);
     border-radius: 7px;
     width: 400px;
     text-align: center;
+    
 }
