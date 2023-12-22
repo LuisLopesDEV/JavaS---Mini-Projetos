@@ -1,10 +1,12 @@
 function carregar(){
-var quad = document.getElementById('quadH')
-var img = document.getElementById('imagem')
-var hora = new Date()
-var agr = hora.getHours()
+let quadH = document.getElementById('quadH')
+let img = document.getElementById('imagem')
+let hora = new Date()
+let agr = hora.getHours()
+
 quadH.innerHTML = `Agora são ${agr} horas.`
-if (agr >= 0 && agr < 12) {
+
+if (agr >= 0&&agr < 12) {
     document.body.style.background = '#2EC4B6'
     img.src = 'imagens/fotomanha.jpg'
 } else if (agr >= 12 && agr <= 18) {

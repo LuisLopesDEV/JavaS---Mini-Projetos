@@ -2,7 +2,7 @@ function calcular(){
 let num = document.getElementById('num')
 let res=document.getElementById('res')
 
-if(num.value.length==0){
+if(num.length==0){
     alert('Por Favor insira um número valido')
 }else{
     let n= Number(num.value)

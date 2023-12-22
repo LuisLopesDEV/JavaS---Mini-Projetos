@@ -1,5 +1,5 @@
 let add = document.getElementById('add')
-let ad = document.getElementById('ad')
+let adbtn = document.getElementById('btn')
 let lista=document.querySelector('select#lista')
 let res = document.getElementById('res')
 let valores = []
@@ -12,7 +12,6 @@ function naLista(n, l){
 function adicionar() {
     let item = document.createElement('option')
     
-
     if(naLista(add.value, valores) || add.length==0){
         alert('Insira um número valido')
     }else{
@@ -30,8 +29,7 @@ function finalizar(){
     }else{
         let tot=valores.length
         valores.sort()
-        let ult= valores.length -1
-        let ultimo= valores[ult]
+        let ultimo= valores[valores.length -1]
         let soma=0
         for(let pos in valores){
             soma+= valores[pos]
