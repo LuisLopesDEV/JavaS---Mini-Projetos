@@ -41,13 +41,7 @@ const tocar = (evento) => {
         tocarSom(letra)
         removeEfect(letra)
     }
-
 }
-const keyOn=(evento)=>{
-    
-
-}
-
 exibir(sons)
 document.getElementById('container').addEventListener('click', tocar)
 window.addEventListener('keyup', tocar)

@@ -7,15 +7,15 @@ function isLampBroken(){
 }
 function lampOn(){
     if(!isLampBroken()){
-    img.src= 'imagens/ligada.jpg'}
+        img.src='imagens/ligada.jpg'}
 }
 function lampOff(){
     if(!isLampBroken()){
-        img.src= 'imagens/desligada.jpg'}
+        img.src='imagens/desligada.jpg'}
 }
 function lampBroken(){
     if(!isLampBroken()){
-        img.src= 'imagens/quebrada.jpg'}
+        img.src='imagens/quebrada.jpg'}
 }
 
 turnOn.addEventListener('click', lampOn)

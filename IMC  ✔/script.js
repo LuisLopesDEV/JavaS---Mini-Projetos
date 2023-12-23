@@ -27,6 +27,4 @@ function imc(){
         }
         res.textContent=`${nome} seu IMC é ${vIMC} e você está ${clas}`
     }
-}
-
-calc.addEventListener('click', imc)
+} calc.addEventListener('click', imc)
